@@ -915,7 +915,7 @@ button:focus {
     color: #8e8f99;
 }
 
-.user-label-span {
+.label-span {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -927,7 +927,7 @@ button:focus {
     fill: transparent;
 }
 
-.user-chb:checked+.user-label-span {
+.user-chb:checked+.user-label .label-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
