@@ -913,6 +913,13 @@ button:focus {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    color: #8E8F99;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
 }
 
 .label-span {
@@ -925,6 +932,7 @@ button:focus {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .user-chb:checked+.user-label .label-span {
@@ -935,6 +943,13 @@ button:focus {
 
 .modal-window-link {
     color: #4d5ae5;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
 }
 
 .modal-window-button-second {
@@ -949,8 +964,22 @@ button:focus {
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
+    border-radius: 4px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 100px;
     margin-top: 24px;
+}
+
+.modal-window-comment-textarea::placeholder {
+    color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+
+    /* Small Text */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 116.667% */
+    letter-spacing: 0.48px;
 }
