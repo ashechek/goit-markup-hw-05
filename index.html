@@ -460,12 +460,17 @@
                     <textarea name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input"
                         class="modal-window-comment-textarea"></textarea>
                 </div>
-                <div class="modal-window-checkbox"><input type="checkbox" name="user-privacy" class="visually-hidden"
-                        id="user-privacy" value="true">
-                    <label for="user-privacy" class="user-label">I accept the terms and conditions of
-                        the<span class="user-label-span"><svg width="10" height="8">
-                                <use href="./images/icons.svg#"></use>
-                            </svg></span></label>
+
+                <div class="modal-window-checkbox"><input type="checkbox" name="user-privacy"
+                        class="visually-hidden user-chb" id="user-privacy" value="true">
+                    <label for="user-privacy" class="user-label">I accept the terms and conditions of the<span
+                            class="user-label-span"><svg width="10" height="8">
+                                <use href="./images/icons.svg#icon-check"></use>
+                            </svg></span>
+                        <a href="" class="modal-window-link">Privacy Policy</a></label>
+
+                    <button class="modal-window-button-second">Send</button>
+
                 </div>
             </form>
         </div>
