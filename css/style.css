@@ -709,7 +709,7 @@ button:focus {
 
 .footer-form {
     display: flex;
-    gap 24px;
+    gap: 24px;
 
 }
 
@@ -731,6 +731,15 @@ button:focus {
     color #ffffff;
 }
 
+.footer-form-p {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
 .footer-form-button {
     min-width: 165px;
     height: 40px;
@@ -747,4 +756,12 @@ button:focus {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+}
+
+.footer-form-container {
+    margin-left: 80px;
+}
+
+.footer-button-svg {
+    margin-left: 16px;
 }
